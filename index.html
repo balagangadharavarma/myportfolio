@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <!--==================== UNICONS ====================-->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+        <!-- ========Boxicons CSS=========== -->
+        <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+        <title>N B G Varma's Portfolio</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Bala Gangadhara Varma Nati</a>
+                </div>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#Certifications" class="nav__link">Certifications</a></li>
+                        <li class="nav__item"><a href="#Projects" class="nav__link">Projects</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+        <main class="l-main">
+        <!--===== HOME =====-->
+        <section class="home bd-grid" id="home">
+            <div class="home__data">
+                <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Bala Gangadhara <br> Varma Nati</span><br>-Developer</h1>
+                <a href="#contact" class="button">Contact</a>
+            </div>
+            <div class="home__social">
+                <a href="https://www.linkedin.com/in/nbgvarma" target="_blank"class="nav__link"><i class="uil uil-linkedin"></i></a>
+                <a href="mailto:balagangadharavarma@gmail.com" target="_blank"class="nav__link"><i class="uil uil-envelope"></i></a>
+                <a href="https://github.com/balagangadharavarma"target="_blank" class="nav__link"><i class="uil uil-github"></i></a>
+                <a href="https://www.instagram.com/balagangadharavarma" target="_blank" class="nav__link"><i class="uil uil-instagram"></i></a>
+                <a href="https://twitter.com/Mr_nbgvarma" target="_blank"class="nav__link"><i class="uil uil-twitter"></i></a>
+                </div>
+                <div class="home__img">
+                <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                     <mask id="mask0" mask-type="alpha">
+                         <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                    </mask>
+                    <g mask="url(#mask0)">
+                        <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                        <image class="home__blob-img" x="50" y="60" href="assets/img/perfil.png"/>
+                    </g>
+                 </svg>
+            </div>
+        </section>
+        <!-- ===== ABOUT ===== -->
+        <section class="about section" id="about">
+            <h2 class="section-title">About</h2>
+            <div class="about__container bd-grid">
+                <div class="about__img">
+                    <img src="assets/img/v8.jpg" alt="">
+                </div>
+                <div>
+                    <h2 class="about__subtitle">I'am Varma</h2>
+                    <p class="about__text">I'am looking for an entry-level position to kickstart my career in the IT field. I wish to work in a dynamic organization and to contribute to my professional and personal growth while I contribute to the growth of the company as well as engage in opportunities to further the career.</p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="text-center">
+                <p>More about my</p>
+            </div>
+            <div class="tab-titles">
+                <div class="tab-links" onclick="opentab(this)">Education</div>
+                <div class="tab-links" onclick="opentab(this)">CourseWork</div>
+                <div class="tab-links" onclick="opentab(this)">Achievements</div>
+                <div class="tab-links" onclick="opentab(this)">Images</div>
+            </div>
+        </section>
+        <!-- ==========Table============ -->
+        <section>
+            <div class="tab-contents " id="Education"> 
+                <table class="table">
+                    <tr>
+                        <th>Name of the Class</th>
+                        <th>Specialization</th>
+                        <th>Institution</th>
+                        <th>Awarded Year</th>
+                    </tr>
+                    <tr>
+                        <td>Masters in Computer Application</td> 
+                        <td>Computer Application</td>
+                        <td>University College of Engineering Kakinada (JNTUK) </td>
+                        <td>on going</td>
+                    </tr>
+                        <tr>
+                        <td>Bachelor of Science</td>
+                        <td>MPCS</td>
+                        <td>Pithapur Rajah’s Government College</td>
+                        <td>2022</td>
+                    </tr>
+                    <tr>
+                        <td>Intermediate</td>
+                        <td>MPC</td>
+                        <td>Narayana Junior College</td>
+                        <td>2019</td>
+                    </tr>
+                    <tr>
+                        <td>SSC</td>
+                        <td>General</td>
+                        <td>MSN EM High School</td>
+                        <td>2017</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="tab-contents" id="CourseWork"> 
+                <table class="table">
+                    <tr>
+                        <th colspan="3">Subjects</th>
+                    </tr>
+                    <tr>
+                        <td>C</td> 
+                        <td>JAVA </td>
+                        <td>DBMS</td>
+                    </tr>
+                    <tr>
+                        <td>Data Structures & Algorithms</td>
+                        <td>Computer Networks & Security</td>
+                        <td>Software Engineering</td>
+                    </tr>
+                    <tr>
+                        <td>Operating Systems</td>
+                        <td>Cloud Computing</td>
+                        <td>Machine Learning With Python</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="tab-contents" id="Achievements">   
+                <ul>
+                    <li>
+                        <span><strong>National Mathematics Day</strong></span><br>
+                             1st Prize | Presentation & Seminar - 2019, 2020
+                    </li>
+                    <li>
+                        <span><strong>National Science Day</strong></span><br>
+                        1st prize | Mathematics - Presentation & Seminar - 2020 <br>
+                        2nd prize | Computer Science - Presentation & Seminar 2020 <br>
+                        2nd prize | Physics - Project - 2021
+                    </li>
+                </ul>
+            </div>      
+            <!-- ================about section images tab====================== -->
+            <div class="tab-contents" id="Images">
+                <div id="images-tab" class="about__tab-content">
+                    <div class="image-grid">
+                        <div class="about__image">
+                            <img src="assets/img/1.jpg" alt="Image 1">
+                        </div>
+                        <div class="about__image">
+                            <img src="assets/img/2.jpg" alt="Image 2">
+                        </div>
+                        <div class="about__image">
+                            <img src="assets/img/3.jpg" alt="Image 3">
+                        </div>
+                        <div class="about__image">
+                            <img src="assets/img/4.jpg" alt="Image 4">
+                        </div>
+                        <div class="about__image">
+                            <img src="assets/img/5.jpg" alt="Image 6">
+                        </div>
+                        <div class="about__image">
+                            <img src="assets/img/6.jpg" alt="Image 7">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--===== SKILLS =====-->
+        <section class="skills section" id="skills">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills__container bd-grid">
+                <div>
+                    <h2 class="skills__subtitle">Technical Skills</h2>
+                    <p class="skills__text">Presenting my skills in key domains below..</p>
+                </div>
+            </div>
+            <div class="skills__container bd-grid">
+                <section class="skills">
+                    <div class="skills-container">
+                        <div class="skills-group">
+                            <div class="skills__data">
+                                <div class="skills__names">
+                                    <i class='bx bxl-html5 skills__icon'></i>
+                                    <span class="skills__name">HTML</span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__names">
+                                    <i class='bx bxl-css3 skills__icon'></i>
+                                    <span class="skills__name">CSS</span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__names">
+                                    <i class='bx bxl-javascript skills__icon'></i>
+                                     <span class="skills__name">JAVASCRIPT</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skills-group">
+                            <div class="skills__data">
+                                <div class="skills__names">
+                                    <i class='bx bxs-data skills__icon'></i>
+                                    <span class="skills__name">DBMS</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <div class="skills-group">
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-python skills__icon'></i>
+                                <span class="skills__name">Python</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-java skills__icon'></i>
+                            <span class="skills__name">JAVA</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxs-copyright skills__icon'></i>
+                            <span class="skills__name">C</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxs-paint skills__icon'></i>
+                            <span class="skills__name">DATA STRUCTURES</span>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section>
+        <!--===== Certifications =====-->
+        <section class="Certifications section" id="Certifications">
+            <h2 class="section-title">Certifications</h2>
+            <div class="Certifications_container bd-grid">
+                <a href="certificates/javacertificate.pdf" target="_blank" class="Certifications__img">
+                    <img src="assets/img/javalogo.jpg" alt="">
+                </a>
+                <a href="certificates/pythoncertificate.pdf" target="_blank" class="Certifications__img">
+                    <img src="assets/img/pythonlogo.jpg" alt="">
+                </a>
+                <a href="certificates/cloudliteracycertificate.pdf" target="_blank" class="Certifications__img">
+                    <img src="assets/img/awslogo.jpg" alt="">
+                </a>
+                <a href="certificates/msofficecertificate.pdf" target="_blank" class="Certifications__img">
+                    <img src="assets/img/msofficelogo.jpg" alt="">
+                </a>
+            </div>
+        </section>
+        <!-- ============= Projects============ -->
+        <section class="project-section" id="Projects">
+            <h2 class="project-section-title" id="project-section-title">Projects</h2>
+            <div class="project__container bd-grid">
+                <div class="project__img">
+                    <img src="assets/img/homeautomation.jpg" alt="">
+                </div>
+                <div class="project__details">
+                    <section>
+                        <h3 class="project__subtitle">Home Automation Using IOT</h3><br>
+                        <p class="project__text">Home Automation using Arduino and Bluetooth project allows users to control various home appliances through a mobile app, providing a seamless and convenient way to manage household devices remotely.<br></p><br>
+                    </section>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="text-center"><br>
+                <p>More about project's</p>
+            </div>
+            <div class="projecttab-titles">
+                <div class="projecttab-links" onclick="openprojecttab(this)">Features</div>
+                <div class="projecttab-links" onclick="openprojecttab(this)">Advantages</div>
+                <div class="projecttab-links" onclick="openprojecttab(this)">Photos</div>
+            </div>
+        </section>
+        <!-- ==========content for different project tabs============ -->
+        <section>
+            <div class="projecttab-contents" id="Features">
+                <ul>
+                    <li>
+                        <span><strong>Mobile App Interface:</strong></span><br>
+                        -The app connects to a Bluetooth HC-05 module, serving as the central control system for the connected devices.
+                    </li>
+                    <li>
+                        <span><strong>Bluetooth Connectivity:</strong></span><br>
+                        -The Bluetooth HC-05 module facilitates communication between the mobile app and the Arduino board. <br>
+                        -Users can remotely send commands to the Arduino through the app, enabling the control of various home appliances.<br>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <span><strong>Arduino as the Controller:</strong></span><br>
+                        -The Arduino board acts as the central controller of the home automation system.<br>
+                        -It receives data from the Bluetooth module through serial communication and processes the commands.
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <span><strong>Relay Module Integration:</strong></span><br>
+                        -To interface electronic appliances with the Arduino, a relay module is incorporated.<br>
+                        -The relay module allows for the efficient control of different devices based on the received commands.
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <span><strong>Expandable and Customizable:</strong></span><br>
+                        -The home automation system can be expanded by adding more devices and functionalities.<br>
+                        -Users can customize the project to suit their specific requirements.
+                    </li>
+                </ul>
+            </div>
+            <div class="projecttab-contents" id="Advantages">
+                <ul>
+                    <li>
+                        <span><strong>Convenience and Remote Control:</strong></span><br>
+                        -Users can control home appliances remotely using a mobile app, providing convenience and flexibility.
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <span><strong>Cost-Effective Solution:</strong></span><br>
+                        -The project utilizes affordable components like Arduino, Bluetooth modules, and relay modules,<br> making it a cost-effective home automation solution compared to commercial alternatives.
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <span><strong>No Internet Dependency:</strong></span><br>
+                        -Unlike some IoT-based home automation systems that rely on internet connectivity,<br> this project operates locally through Bluetooth communication.<br> -This ensures that the system remains functional even in the absence of an internet connection.
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <span><strong>Offline Security:</strong></span><br>
+                        -he project's local operation provides an additional layer of security, as it minimizes the exposure of the system to potential online threats.<br> -This can be particularly appealing for users concerned about the security of their smart home devices.
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <span><strong>calability:</strong></span><br>
+                        -The project is scalable, making it suitable for both small and large-scale automation setups.<br> -Users can start with a basic configuration and gradually expand the system as needed.
+                    </li>
+                </ul>
+            </div>
+            <!-- ==========project photos============== -->
+            <div class="projecttab-contents" id="Photos">
+                <div id="photos-tab" class="project__tab-content">
+                    <div class="photos-grid">
+                        <div class="project__photos">
+                            <img src="assets/img/7.jpg" alt="photos 1">
+                        </div>
+                        <div class="project__photos">
+                            <img src="assets/img/8.jpg" alt="photos 2">
+                        </div>
+                        <div class="project__photos">
+                            <img src="assets/img/9.jpg" alt="photos 3">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--===== CONTACT =====-->
+        <section class="contact section" id="contact">
+            <h2 class="section-title">Contact</h2>
+            <div class="contact__container bd-grid">
+                <a href="https://www.linkedin.com/in/nbgvarma" target="_blank"class="nav__link"><i class="uil uil-linkedin"style="font-size: 2em;" ></i></a>
+                <a href="mailto:balagangadharavarma@gmail.com" target="_blank"class="nav__link"><i class="uil uil-envelope"style="font-size: 2em;" > </i></a>
+                <a href="https://www.instagram.com/balagangadharavarma" target="_blank" class="nav__link"><i class="uil uil-instagram"style="font-size: 2em;" ></i></a>
+                 <a href="https://github.com/balagangadharavarma"target="_blank" class="nav__link"><i class="uil uil-github"style="font-size: 2em;" ></i></a>
+                <a href="https://twitter.com/Mr_nbgvarma" target="_blank"class="nav__link"><i class="uil uil-twitter"style="font-size: 2em;" ></i></a>
+            </div>
+        </section>
+        </main>
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">Nati Bala Gangadhara Varma</p>
+            <p class="footer__copy">&#169; All rigths reserved</p>
+        </footer>
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    </body>
+</html>
