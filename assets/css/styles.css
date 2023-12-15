@@ -626,7 +626,7 @@ tr:nth-child(even) {
 
 .project__img {
   width: 200%;
-  border-radius: 0px; /* Adjust the border-radius as needed */
+  border-radius: 7px; /* Adjust the border-radius as needed */
   overflow: hidden; /* Ensure the image stays within the rounded border */
 }
 
